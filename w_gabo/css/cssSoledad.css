@@ -1,0 +1,26 @@
+.container{
+    background-color: #A1D6E2;
+}
+.img-libro{
+    width: 90%;
+    height: 600px;
+}
+.titulos{
+    color: #1995AD;
+}
+.parrafos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.verLibro{
+    text-align: center;
+    color: #3c737e;
+    background-color: #BCBABE;
+}
+.color-paginas{
+    background-color: #F1F1F2;
+    color:#F1F1F2";
+}
+.pg1{
+    border-right: 1px solid black;
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/cssSoledad.css" rel="stylesheet" />
+   
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script src="../js/miJs.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+
+    <div class="container">
+        
+
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="titulos">Cien años de soledad</h1>
+                    <hr>
+                    <img id="imagenLibro" class="rounded float-start img-libro" src="../img/imgSoledad.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <article>
+                        <h2 class="titulos">Informacion del libro</h2>
+                        <p class="parrafos">
+                           <strong> Nº de páginas:</strong>
+                            496
+                        <br>
+                        
+                           <strong> Editorial:</strong>
+                            DEBOLSILLO
+                        <br>
+                           <strong>Idioma:</strong> 
+                            CASTELLANO
+                        <br>
+                          <strong> Encuadernación: </strong>
+                            Tapa blanda
+                        <br>
+                        
+                           <strong> ISBN:</strong>
+                            9788497592208
+                        <br>
+                           
+                            <strong>Año de edición: </strong> 
+                            2021
+                        <br>
+                            <strong> Plaza de edición: </strong>
+                            ES
+                        <br>
+                            <strong>Fecha de lanzamiento: </strong> 
+                            06/02/2021
+                        </p>
+                    </article>
+                    <hr>
+
+                    <h2 class="titulos">Sinopsis </h2>
+                    <article>
+                        <p class="parrafos">
+                           <strong>
+                               Señalada como «catedral gótica del lenguaje», este clásico del siglo XX es el enorme y espléndido tapiz de la saga de la familia Buendía, en la mítica aldea de Macondo.
+
+                               Un referente imprescindible de la vida y la narrativa latinoamericana.
+                          </strong> 
+                            «Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas había que señalarlas con el dedo.»
+
+                            Con estas palabras empieza la novela ya legendaria en los anales de la literatura universal, una de las aventuras literarias más fascinantes de nuestro siglo. Millones de ejemplares deCien años de soledad leídos en todas las lenguas y el Premio Nobel de Literatura coronando una obra que se había abierto paso «boca a boca» -como gusta decir al escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero.
+                        </p>
+                    </article>
+
+                </div>
+
+                <p id="mostrarLib" class="verLibro">Click Para Ver el Libro</p>
+                <div  id="libro" class="libro" >
+                        <div class="row">
+                            <div id="pagiz" class="col-6 color-paginas pg1"></div>
+                            <div id="pagde" class="col-6 color-paginas"></div>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                            <li id="pagAtras" class="page-item">
+                                <p class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</p>
+                            </li>
+                            <li id="siguientePag" class="page-item">
+                                <p class="page-link" >Next</p>
+                            </li>
+                            </ul>
+                            </nav>
+                 </div>
+              </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
